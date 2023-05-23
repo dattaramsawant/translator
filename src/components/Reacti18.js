@@ -10,7 +10,7 @@ const Reacti18 = () => {
 
 	const handleChangeLng = (lng) => {
 		i18n.changeLanguage(lng);
-        cookie.set(constants.REACT_18_LANGUAGE_KEY)
+        cookie.set(constants.REACT_18_LANGUAGE_KEY);
 	};
 
 	return (

@@ -2,9 +2,7 @@ import React, { useEffect, useState } from 'react'
 import styles from '../styles/googleTranslator.module.css'
 import { Cookies } from 'react-cookie'
 import { constants } from '../utils/constants'
-import useTranslator from '../hooks/useTranslator'
 import { translator } from '../functions/translator'
-// import { translator } from '../functions/translator'
 
 const GoogleTranslator = () => {
     const cookie=new Cookies()
@@ -12,7 +10,6 @@ const GoogleTranslator = () => {
     const [value,setValue]=useState("")
     const [translatedValue,setTranslatedValue]=useState('')
     const [selectedTranslateLanguage,setSelectedTranslateLanguage]=useState(cookie.get(constants.TRANSLATE_LANGUAGE_KEY) || constants.DEFAULT_LANGUAGE)
-    // const [translate,setTranslate]=useTranslator('')
     const [multiPara,setMultiPara]=useState([])
 
     const [defaultPara,setDefaultPara] = useState("Now you know what dummy text is, let’s learn about its usefulness. Some people say that they don’t need to use a dummy text generator to deliver a web design project to the customer. Even though this might be true, the effect that the final project will produce on the client won’t be as satisfactory as in the case of one with included filler content.")

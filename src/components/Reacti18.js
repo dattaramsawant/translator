@@ -18,7 +18,7 @@ const Reacti18 = () => {
 			<button onClick={() => handleChangeLng("en")}>English</button>
 			<button onClick={() => handleChangeLng("mr")}>Marathi</button>
 
-			<p>{t("hello")}</p>
+			<p>{t("i18next is an internationalization-framework written in and for JavaScript. But it's much more than that! i18next goes beyond just providing the standard i18n features such as (plurals, context, interpolation, format). It provides you with a complete solution to localize your product from web to mobile and desktop.")}</p>
 			<p>{t("how are you?")}</p>
 		</div>
 	);

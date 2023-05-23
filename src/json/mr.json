@@ -1,4 +1,4 @@
 {
-	"hello": "नमस्कार",
+	"i18next is an internationalization-framework written in and for JavaScript. But it's much more than that! i18next goes beyond just providing the standard i18n features such as (plurals, context, interpolation, format). It provides you with a complete solution to localize your product from web to mobile and desktop.": "i18next हे JavaScript मध्ये आणि त्यासाठी लिहिलेले आंतरराष्ट्रीयीकरण-फ्रेमवर्क आहे. पण ते त्यापेक्षा खूप जास्त आहे! i18next फक्त मानक i18n वैशिष्ट्ये प्रदान करण्यापलीकडे आहे जसे की (बहुवचन, संदर्भ, प्रक्षेप, स्वरूप). हे तुम्हाला तुमच्या उत्पादनाचे वेबवरून मोबाइल आणि डेस्कटॉपवर स्थानिकीकरण करण्यासाठी संपूर्ण समाधान प्रदान करते.",
 	"how are you?": "तू कसा आहेस?"
 }
